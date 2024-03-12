@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(155, 226, 250);
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    margin-block: 55px;
+    padding-inline: 10px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 3px 3px 15px rgba(183, 183, 183, 0.7);
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+.title{
+    width: 450px;
+    min-width: 430px;
+    background-color: royalblue;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    border-radius: 50px;
+    height: 90px;
+    margin-top: 15px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+h1 {
+    margin-top: 3px;
+    text-align: center;
+    font-family: "Honk", system-ui;
+    font-size: 4em;
+}
+
+.select {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pickColor {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.pickColor:hover {
+    cursor: pointer;
+}
+
+.rules{
+    display: none;
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    background-color: rgb(201, 197, 197);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.cls {
+    display: none;
+}
+
+.display{
+    display: block;
+}
+
+h2{
+    margin-top: 15px;
+    text-align: center;
+}
+
+p{
+    padding-inline: 30px;
+}
+
+ul{
+    padding-left: 60px;
+}
+
+
+.returnGame{
+    height: 30px;
+    margin-block: 15px;
+    width: 115px;
+    margin-left: 42%;
+}
+.indications {
+    display: flex;
+    width: 110px;
+    height: 30px;
+    border: 1px solid black;
+    margin-right: 100px;
+    align-self: center;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    /* font-weight: bold; */
+    background-color: dimgrey;
+}
+
+.black {
+    background-color: black;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.white {
+    background-color: white;
+}
+
+.row {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.color {
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.color:hover {
+    cursor: pointer;
+}
+
+/* .indication {
+    display: flex;
+    justify-content: center;
+} */
+
+.valid {
+    padding-inline: 20px;
+    margin-left: 100px;
+}

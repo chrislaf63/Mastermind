@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Honk&family=Lato&display=swap"
+            rel="stylesheet"
+        />
+        <title>MasterMind</title>
+    </head>
+    <body>
+        <header>
+                <button class="rulesGame">Règles du jeu</button>
+            <div class="title">
+                <h1>Mastermind</h1>
+            </div>
+            <button class="launchGame">Nouvelle partie</button>
+        </header>
+        <section class="sect">
+            <div class="select">
+                <div class="pickColor white"></div>
+                <div class="pickColor red"></div>
+                <div class="pickColor blue"></div>
+                <div class="pickColor green"></div>
+                <div class="pickColor yellow"></div>
+                <div class="pickColor orange"></div>
+                <div class="pickColor black"></div>
+            </div>
+
+           
+            <!-- <div class="container">
+                <div class="row">
+                    <div class="indications"></div>
+                    <div class="color first"></div>
+                    <div class="color second"></div>
+                    <div class="color third"></div>
+                    <div class="color fourth"></div>
+                </div>
+            </div> -->
+        </section>
+        <div class="rules">
+            <h2>Règles du jeu</h2>
+            <br>
+            <p>Il vous faudra deviner une combinaison de couleur. Cette combinaison sera soit :</p>
+            <ul>
+                <li>Générée aléatoirement</li>
+                <li>Générée manuellement par un autre participant</li>
+            </ul>
+            <br>
+            <p>Vous devrez choisir un couleur dans la palette, et venir la déposer dans un rond.
+            </p>
+            <p>Une fois la couleur déposée, vous ne pourrez plus changer</p>
+            <p>Déposer une couleur dans le dernier rond validera votre ligne</p>
+            <br>
+            <p>Sur la gauche de la ligne, des indications vous seront données.</p>
+            <p><span style="background-color: red; color: white">_</span> signifie que la couleur correspondante ne fait pas partie de la combinaison</p>
+            <p><span style="background-color: orange; color: white">O</span> signifie que la couleur correspondante est présente dans la combinaison, mais à un autre endroit</p>
+            <p><span style="background-color: green; color: white">X</span> signifie que la couleur correspondante est présente et au bon endroit</p>
+            <button class="returnGame">Retour au jeu</button>
+        </div>
+        <script type="module" src="script.js"></script>
+    </body>
+</html>
